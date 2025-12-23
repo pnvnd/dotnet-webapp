@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NewRelic.Agent" Version="9.5.1" />
-    <PackageReference Include="NewRelic.Agent.Api" Version="9.5.0" />
+    <PackageReference Include="NewRelic.Agent" Version="10.47.2" />
+    <PackageReference Include="NewRelic.Agent.Api" Version="10.47.2" />
   </ItemGroup>
 
 </Project>
