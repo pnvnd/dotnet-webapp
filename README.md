@@ -13,10 +13,6 @@ Edit the `dotnet-webapp.csproj` and add the following to instrument the applicat
 </ItemGroup>
 ```
 
-Edit the `Pages/Shared/_Layout.cshtml` to add the Browser Agent right after the `meta` tags:
-```
-@Html.Raw(NewRelic.Api.Agent.NewRelic.GetBrowserTimingHeader())
-```
 # Running the Application
 Run the app locally with this command:
 ```
